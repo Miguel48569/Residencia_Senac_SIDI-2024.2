@@ -1,70 +1,33 @@
-# Getting Started with Create React App
+Sistema de Controle de Ponto de Colaboradores
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Descrição
+Este sistema permite que colaboradores registrem seus horários de entrada e saída (bater ponto), além de possibilitar o cadastro de novos usuários, login, reset de senha e correção de pontos registrados.
 
-## Available Scripts
+Funcionalidades
+Login: Colaboradores podem acessar o sistema inserindo seu e-mail e senha.
+Cadastro de Usuário: Novos colaboradores podem se cadastrar no sistema.
+Resetar Senha: Caso o colaborador esqueça a senha, é possível solicitar a redefinição.
+Bater Ponto: Colaboradores podem registrar seus horários de entrada e saída.
+Correção de Ponto: Colaboradores ou administradores podem corrigir pontos erroneamente registrados.
+Tecnologias Utilizadas
+Frontend: HTML, CSS, JavaScript (Utilizando o framework React)
 
-In the project directory, you can run:
+Como Usar
+1. Cadastro de Usuário
+Para se cadastrar, clique em "Cadastrar-se" na tela inicial e preencha as informações solicitadas, como nome, e-mail e senha. Após o cadastro, você poderá fazer login no sistema.
 
-### `npm start`
+2. Login
+Para fazer login, insira seu e-mail e senha na tela de login. Após o login bem-sucedido, você será redirecionado à página principal, onde pode visualizar e registrar seus pontos.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+3. Bater Ponto
+Na página principal, você verá opções para registrar o ponto de entrada e saída. Clique em "Bater Ponto" para registrar o horário atual.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Bater Ponto de Entrada: Registra o horário de entrada no início do expediente.
+Bater Ponto de Saída: Registra o horário de saída ao fim do expediente.
+4. Correção de Ponto
+Caso você perceba que houve um erro no horário registrado, você pode solicitar uma correção do ponto diretamente na interface de controle de pontos.
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Se você for um administrador, poderá corrigir qualquer ponto registrado.
+Colaboradores podem solicitar correção, que será analisada e ajustada por um administrador.
+5. Resetar Senha
+Se você esqueceu sua senha, clique em "Esqueci a Senha" na tela de login. Você receberá um código para redefinir sua senha no e-mail cadastrado.
