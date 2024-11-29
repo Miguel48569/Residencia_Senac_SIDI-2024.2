@@ -3,7 +3,7 @@ import { useForm } from "react-hook-form";
 import { yupResolver } from "@hookform/resolvers/yup";
 import { Button, TextField, Typography, Box, Divider } from "@mui/material";
 import validationLogin from "../../utils/validatioLogin";
-import { goToRegister, goToResetPassword } from "../../router/Coordinator";
+import { goToHome, goToRegister, goToResetPassword } from "../../router/Coordinator";
 import { useNavigate } from "react-router-dom";
 import { ErrorLogin, InputLogin, HrLine} from "./LoginStyle.js";
 
@@ -29,7 +29,7 @@ function Login() {
 
   const handleChangePage = (navigate) => {
     setTimeout(() => {
-      console.log(doLogin);
+      goToHome(navigate);
     }, 1000);
   };
 

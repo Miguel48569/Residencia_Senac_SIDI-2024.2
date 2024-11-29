@@ -18,3 +18,11 @@ export const goToCodeResetPassword =(navigate) => {
 export const goToNewPassword =(navigate) => {
   navigate("/newpassword")
 };
+
+export const goToHome =(navigate) => {
+  navigate("/home")
+};
+
+export const goToLogUser =(navigate) => {
+  navigate("/loguser")
+};

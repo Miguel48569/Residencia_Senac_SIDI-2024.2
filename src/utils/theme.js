@@ -12,6 +12,9 @@ const theme = createTheme({
     background: {
       default: "#2A1846",
     },
+    third:{
+      main:"#FFFFFF"
+    }
   },
   typography: {
     fontFamily: 'Rammetto One, Static',
