@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Sistema de Controle de Ponto de Colaboradores
 
 Descrição
@@ -31,3 +32,7 @@ Se você for um administrador, poderá corrigir qualquer ponto registrado.
 Colaboradores podem solicitar correção, que será analisada e ajustada por um administrador.
 5. Resetar Senha
 Se você esqueceu sua senha, clique em "Esqueci a Senha" na tela de login. Você receberá um código para redefinir sua senha no e-mail cadastrado.
+=======
+# Residencia_Senac_SIDI-2024.2
+Sistema de Controle de Ponto de Colaboradores
+>>>>>>> 81f4c015f0f3fb72fe4bb1574dbaacf7e74c3224
